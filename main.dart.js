@@ -104304,7 +104304,7 @@ for(;;)switch(s){case 0:p=$.cw().b
 p===$&&A.a()
 o=A
 s=3
-return A.q(p.de("shares").hT(0,"    *,\n    profiles(id, name, phone_number, email, username),\n    matches(id, match_name),\n    highlights(id)\n  ").iR(0,"date_time",!1),$async$$1)
+return A.q(p.de("shares").hT(0,"    *,\n    profiles(id, name, phone_number, email, user_name),\n    matches(id, match_name),\n    highlights(id)\n  ").iR(0,"date_time",!1),$async$$1)
 case 3:q=o.cY(c,!0,t.P)
 s=1
 break
@@ -104355,7 +104355,7 @@ else{k=J.an(r,"email")
 k=k==null?m:J.bv(k).toLowerCase()
 o=k}if(o==null)o=""
 if(l)n=m
-else{l=J.an(r,"username")
+else{l=J.an(r,"user_name")
 l=l==null?m:J.bv(l).toLowerCase()
 n=l}if(n==null)n=""
 l=this.a
@@ -104618,7 +104618,7 @@ h=e==null
 s=h?l:J.an(e,"name")
 if(s==null)s="Unknown User"
 r=h?l:J.an(e,"phone_number")
-if(r==null)r=h?l:J.an(e,"username")
+if(r==null)r=h?l:J.an(e,"user_name")
 if(r==null){h=h?l:J.an(e,"email")
 q=h}else q=r
 if(q==null)q=""
